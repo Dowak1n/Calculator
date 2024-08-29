@@ -33,7 +33,6 @@ module.exports = {
   },
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
-
     '@typescript-eslint/no-non-null-assertion': 'off',
     'import/extensions': [
       'error',
@@ -49,5 +48,6 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['error'],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
+    'consistent-return': 'off',
   },
 };
