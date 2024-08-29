@@ -1,5 +1,5 @@
 import React from 'react';
-import './Calculator.css';
+import '../styles/Calculator.css';
 import Display from './Display';
 import Keypad from './Keypad';
 import useCalculatorLogic from '../hooks/useCalculatorLogic';
